@@ -91,6 +91,8 @@ p {
   font-size: 20px;
   line-height: 30px;
   text-align: center;
+  font-family: 'Open Sans',
+    sans-serif;
 }
 
 ul {
@@ -108,8 +110,14 @@ h3 {
   line-height: 50px;
   font-weight: 400;
   text-align: center;
+  font-family: 'Open Sans',
+    sans-serif;
 }
 
+h4 {
+  font-family: 'Open Sans',
+    sans-serif;
+}
 
 .contactbox {
   justify-content: center;
@@ -122,8 +130,8 @@ h3 {
   width: 180px;
   height: 180px;
   margin-top: -30px;
-  border: 3px solid #003399;
-  border-radius: 100px;
+  /* border: 3px solid #003399;
+  border-radius: 100px; */
 }
 
 
@@ -240,19 +248,24 @@ h4 {
   }
 
   .logo img {
-    margin-left: -100px;
-    margin-top: 80px;
+    margin-left: 120px;
+    margin-top: -80px;
   }
 
+  h1 {
+    font-size: 35px;
+    margin-right: 10px;
+  }
+
+  ul {
+    font-size: 18px;
+  }
 
   .flex-container {
     flex-direction: column;
   }
 
-  .contact_allan {
-    display: inline-flex;
-    justify-content: center;
-  }
+
 
   .flex-container>div {
     display: inline-flex;
@@ -261,9 +274,23 @@ h4 {
     margin-bottom: -20px;
   }
 
-  .price {
-    margin-left: -500px;
+  .price p {
+    margin-left: 10px;
     text-align: center;
+    font-size: 18px;
+  }
+
+  .vid {
+    width: fit-content;
+    height: fit-content;
+
+  }
+
+  .contact_allan img {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .whatsapp img {
@@ -283,9 +310,6 @@ h4 {
     font-size: 20px;
   }
 
-  .name {
-    margin-top: -5px;
-  }
 
 }
 
@@ -455,7 +479,7 @@ h4 {
 
   .qslogo img {
 
-    width: 280px;
+    width: 340px;
     height: 150px;
   }
 
@@ -474,8 +498,6 @@ h4 {
     margin-left: -80px;
     margin-bottom: 10px;
   }
-
-
 
 
   .flex-container {
@@ -500,26 +522,29 @@ h4 {
   }
 
   .number {
-    margin-top: 10px;
+    margin-top: 20px;
+    font-size: 25px;
   }
 
 
   .email {
     margin-top: 20px;
+    font-size: 25px;
   }
 
   .gmail {
-    font-size: 20px;
+    font-size: 25px;
+
   }
 
   .name {
-    margin-top: -5px;
+    margin-top: 10px;
   }
 
   .footer {
     width: 100%;
     height: 60px;
-    margin-bottom: -30px;
+    /* margin-bottom: -30px; */
     margin-top: 70px;
   }
 
